@@ -225,6 +225,44 @@ svg{
 .card h2{
     letter-spacing: .1rem;
     margin: 0;
+    
+}
+
+.top-row{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card_2{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+    overflow: hidden;
+    width: 20rem;
+    border: .1rem solid rgba(255, 255, 255, 0.1);
+    color: var(--fondo1);
+    border-radius: 100%; 
+    height: 27rem; 
+    width: 28rem;
+    background-size: contain; 
+    background-position: center;
+
+}
+
+.card_2 h6{
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.card_2 h2{
+    letter-spacing: .1rem;
+    margin: 0;
 
 }
 
@@ -254,6 +292,17 @@ svg{
 .content p{
     font-size: 1.2rem;    
 }s
+
+.Big_button{
+    padding: 1rem;
+    width: 10%;
+    height: 15rem;
+    display: inside;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-betwee;
+    background-size: contain;
+}
 
 .button{
     border-radius: 2rem;

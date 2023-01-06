@@ -5,8 +5,8 @@
 body{
 	height: 100%;
 	width: 100%;
-	background-image: url("./img/fondo_formulario.jpg");
-	background-size: cover;
+	background-image: url("./img/documento.webp");
+	background-size: contain;
 }
 
 form {
@@ -17,6 +17,7 @@ form {
 	margin-top: 10px;
 	border-radius: 10px;
 	box-shadow: 10px 10px 26px 8px;
+	backdrop-filter: blur(7rem);
   }
   h2 {
 	/*color: white;*/
